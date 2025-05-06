@@ -6,8 +6,8 @@ import Ilya from "../../components/ilya/Ilya";
 import HandleButton from "../../components/handleButton/HandleButton";
 import { useNavigate } from "react-router-dom";
 
-const timeToHappiness = 60000;
-const timeToLab = 360000;
+const timeToHappiness = 30000;
+const timeToLab = 180000;
 const labs = 10;
 
 export default function Game() {

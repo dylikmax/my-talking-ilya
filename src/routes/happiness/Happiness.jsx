@@ -31,7 +31,7 @@ const Happiness = () => {
   }, [gameOver]);
 
   useEffect(() => {
-    const timer = setTimeout(() => setGameOver(true), 30000);
+    const timer = setTimeout(() => setGameOver(true), 60000);
     return () => clearTimeout(timer);
   }, []);
 
