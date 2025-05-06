@@ -1,0 +1,9 @@
+.lab {
+  color: #171717;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}

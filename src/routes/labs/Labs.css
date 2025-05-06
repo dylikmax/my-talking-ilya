@@ -1,0 +1,64 @@
+.labs-container {
+  background-color: #171717;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.labs-wrapper {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+h1 {
+  color: #d9d9d9;
+}
+
+.labs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.undone {
+  background-color: #d9d9d9;
+}
+
+.done {
+  background-color: #54995e;
+}
+
+.dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 8px;
+  width: 80%;
+  height: 90px;
+  background-color: #414141;
+}
+
+.active {
+  visibility: visible;
+}
+
+.non-active {
+  visibility: hidden;
+}
+
+.lab-info {
+  color: #d9d9d9
+}
+
+.video-container {
+  position: absolute;
+}

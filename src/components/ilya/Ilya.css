@@ -1,0 +1,18 @@
+.ilya-img {
+  height: 300px;
+}
+
+.mouth {
+  height: 40px;
+  position: fixed;
+  bottom: 198px;
+  left: 49.5%;
+}
+
+.smiled {
+  transform: rotate(-7deg);
+}
+
+.sad {
+  transform: rotate(172deg);
+}

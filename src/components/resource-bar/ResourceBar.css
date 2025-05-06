@@ -1,0 +1,28 @@
+.resource-bar {
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  position: relative;
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.resource-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.resource-label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 30px; /* Центрируем текст по вертикали */
+  color: #d9d9d9;
+}
+
+.bar-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
