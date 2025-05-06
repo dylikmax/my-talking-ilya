@@ -1,3 +1,7 @@
+.ilya {
+  position: relative;
+}
+
 .ilya-img {
   height: 300px;
 }
@@ -5,8 +9,8 @@
 .mouth {
   height: 40px;
   position: absolute;
-  bottom: 145px;
-  left: 49.5%;
+  bottom: 195px;
+  left: 126px;
 }
 
 .smiled {
@@ -17,9 +21,8 @@
   transform: rotate(172deg);
 }
 
-@media (min-width: 440px) {
-  /* Стили для экранов шире 600 пикселей */
+/* @media (min-width: 440px) {
   .mouth {
     bottom: 195px;
   }
-}
+} */
