@@ -1,5 +1,5 @@
 .app-layout {
-  height: 95vh;
+  height: 100vh;
   width: min(435px, 100vw);
   background-color: white;
 }

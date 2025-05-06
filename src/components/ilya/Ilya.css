@@ -4,7 +4,7 @@
 
 .mouth {
   height: 40px;
-  position: fixed;
+  position: absolute;
   bottom: 198px;
   left: 49.5%;
 }
