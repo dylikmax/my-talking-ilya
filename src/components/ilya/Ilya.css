@@ -16,3 +16,10 @@
 .sad {
   transform: rotate(172deg);
 }
+
+@media (min-width: 440px) {
+  /* Стили для экранов шире 600 пикселей */
+  .mouth {
+    bottom: 195px;
+  }
+}
